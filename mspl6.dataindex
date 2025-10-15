@@ -1,0 +1,3 @@
+#This file is generated automatically.  Do not attempt to edit it!
+ft=1 ext=.mon fname=mspl6.mon cols=[X,Y+] xnames=['Z'] wnames=['Mon. val.'] header=[skip,skip,skip,skip,skip] num_cols=15
+ft=6 ext=.fld fname=mspl6.fld cols=[Y+] xnames=['X','Y'] wnames=[OUTPUT_FORMAT_NAMES] header=[skip,skip,data=XGRID:ZPOS:FORMAT,data=YGRID] 

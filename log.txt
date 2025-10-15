@@ -1,0 +1,2776 @@
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe grating_coupler_model2.ind fdtd_usefloat=1 wait=0 prefix=x1 cliq_file=cliques_196020.txt rsoft_completion_file=done_196020.txt >mpiexeclog.txt!
+Rank 15: MPI_Init Called, NumProcs=32, mypid=188448.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=139488.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=214696.
+
+Rank 31: MPI_Init Called, NumProcs=32, mypid=227644.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=240508.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=190692.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=235360.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=17768.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=236668.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=234940.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=29972.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=217100.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=236712.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=226764.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=137164.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=137848.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=108692.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=231584.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=229764.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=236716.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=45784.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=214452.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=237436.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=223648.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=138736.
+Rank 30: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 4: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 13: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+ank 26: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 8: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+
+Rank 9: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 1: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+
+Rank 20: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 5: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 28: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 24: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 19: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+Rank 0: FullWAVE Error:
+can't open input file grating_coupler_model2.ind.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe grating_coupler_model2.ind fdtd_usefloat=1 wait=0 prefix=x1 cliq_file=cliques_44376.txt rsoft_completion_file=done_44376.txt >mpiexeclog.txt!
+Rank 24: MPI_Init Called, NumProcs=32, mypid=227552.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=225988.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=215836.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=225240.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=237744.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=116500.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=99576.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=236800.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=237848.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=234964.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=224852.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=239040.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=144504.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=117844.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=220220.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=133608.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=224168.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=126068.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=238932.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=239944.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=236292.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=22356.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=147900.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=224936.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=230856.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=29624.
+
+Rank 25: MPI_Init Called, NumProcs=32, mypid=237624.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=215336.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=191300.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=114620.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=28564.
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_97400.txt rsoft_completion_file=done_97400.txt >mpiexeclog.txt!
+Rank 22: MPI_Init Called, NumProcs=32, mypid=238180.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=143340.
+My Rank is 27.
+My Rank is 6.
+NumProcs is 32.
+My Rank is 0.
+My Rank is 21.
+My Rank is 18.
+My Rank is 19.
+My Rank is 2.
+
+My Rank is 11.
+My Rank is 4.
+My Rank is 23.
+Rank 0: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 22.
+My Rank is 28.
+My Rank is 20.
+Rank 6: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 26.
+Rank 27: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 8.
+My Rank is 5.
+Rank 18: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 29.
+My Rank is 9.
+E Error:
+can't open file ZS1_ex.m00_ex.txt.
+
+My Rank is 10.
+Rank 16: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 13.
+My Rank is 12.
+My Rank is 24.
+My Rank is 25.
+My Rank is 15.
+Rank 4: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 31.
+My Rank is 14.
+Rank 11: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+My Rank is 17.
+Rank 5: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file ZS1_ex.m00_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_234056.txt rsoft_completion_file=done_234056.txt >mpiexeclog.txt!
+Rank 22: MPI_Init Called, NumProcs=32, mypid=220664.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=36796.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=232784.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=233196.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=225064.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=229764.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=231456.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=214896.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=237076.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=229532.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=238980.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=236228.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=235364.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=211512.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=229896.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=238992.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=240024.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=212748.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=111532.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=146304.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=229800.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=234636.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=144680.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=220452.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=232496.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=138072.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=4668.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=149876.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=238064.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=104400.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=179376.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=11508.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_71040.txt rsoft_completion_file=done_71040.txt >mpiexeclog.txt!
+Rank 2: MPI_Init Called, NumProcs=32, mypid=171548.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=152620.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=218452.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=139336.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=144504.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=235632.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=222660.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=228112.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=213364.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=239536.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=236736.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=220652.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=52512.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=238428.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=201160.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=227056.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=232704.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=19816.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=104988.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=113736.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=127500.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=116172.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=215000.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=147420.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=235096.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=238180.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=225148.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=164856.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=185840.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=231904.
+My Rank is 16.
+My Rank is 7.
+My Rank is 11.
+My Rank is 21.
+My Rank is 17.
+My Rank is 10.
+My Rank is 3.
+My Rank is 29.
+My Rank is 19.
+My Rank is 31.
+My Rank is 22.
+My Rank is 25.
+My Rank is 28.
+My Rank is 18.
+My Rank is 2.
+My Rank is 15.
+My Rank is 24.
+My Rank is 30.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 4.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+My Rank is 14.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+NumProcs is 32.
+My Rank is 0.
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 1.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 23.
+My Rank is 12.
+My Rank is 20.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+
+My Rank is 13.
+My Rank is 27.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 5.
+My Rank is 8.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_238804.txt rsoft_completion_file=done_238804.txt >mpiexeclog.txt!
+Rank 8: MPI_Init Called, NumProcs=32, mypid=27376.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=224596.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=214476.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=235952.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=87288.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=227404.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=125036.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=12296.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=223532.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=139860.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=208688.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=187616.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=150060.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=27708.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=210284.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=240276.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=236336.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=219772.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=229356.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=236448.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=237848.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=13236.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=217500.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=5260.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=223872.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=223868.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=234384.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=236404.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=235064.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=5836.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=233888.
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_215528.txt rsoft_completion_file=done_215528.txt >mpiexeclog.txt!
+Rank 22: MPI_Init Called, NumProcs=32, mypid=237676.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=237896.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=223196.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=6580.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=31368.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=222516.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=210068.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=221904.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=233420.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=172876.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=239212.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=240216.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=206012.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=237380.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=226052.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=226584.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=144680.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=211896.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=237608.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=235720.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=236440.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=231876.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=227936.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=230952.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=213364.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=229368.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=235140.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=225572.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=215836.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=238304.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=228272.
+Using MPI Enabled Code
+My Rank is 28.
+
+My Rank is 0.
+My Rank is 12.
+My Rank is 20.
+My Rank is 18.
+My Rank is 2.
+My Rank is 11.
+My Rank is 29.
+My Rank is 23.
+My Rank is 8.
+My Rank is 4.
+My Rank is 31.
+My Rank is 13.
+My Rank is 16.
+My Rank is 30.
+My Rank is 1.
+My Rank is 25.
+My Rank is 5.
+My Rank is 15.
+My Rank is 26.
+My Rank is 14.
+My Rank is 7.
+
+My Rank is 6.
+My Rank is 9.
+
+My Rank is 19.
+My Rank is 27.
+My Rank is 21.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_224804.txt rsoft_completion_file=done_224804.txt >mpiexeclog.txt!
+Rank 14: MPI_Init Called, NumProcs=32, mypid=115716.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=224292.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=222384.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=232224.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=97140.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=234896.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=222752.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=230260.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=233632.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=228208.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=232936.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=224320.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=237408.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=144956.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=22988.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=105304.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=102564.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=23872.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=240180.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=225752.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=64956.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=238404.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=137848.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=210620.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=228820.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=240280.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=240036.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=226876.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=234208.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=234696.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=176736.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=228312.
+My Rank is 22.
+My Rank is 27.
+My Rank is 5.
+My Rank is 31.
+My Rank is 24.
+My Rank is 14.
+My Rank is 7.
+My Rank is 26.
+My Rank is 10.
+My Rank is 9.
+My Rank is 15.
+E Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 23.
+My Rank is 12.
+My Rank is 13.
+My Rank is 20.
+My Rank is 19.
+My Rank is 30.
+My Rank is 18.
+E Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 11.
+My Rank is 6.
+My Rank is 29.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 28.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+My Rank is 4.
+My Rank is 16.
+
+My Rank is 1.
+My Rank is 17.
+My Rank is 2.
+VE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 3.
+My Rank is 25.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 8.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_236532.txt rsoft_completion_file=done_236532.txt >mpiexeclog.txt!
+Rank 4: MPI_Init Called, NumProcs=32, mypid=225260.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=29260.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=100356.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=229956.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=8536.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=104400.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=150928.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=231932.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=226868.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=238464.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=15048.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=227144.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=233836.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=204924.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=227552.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=223120.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=236704.
+
+Rank 21: MPI_Init Called, NumProcs=32, mypid=151524.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=113464.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=225652.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=238580.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=112912.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=235308.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=235624.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=212084.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=199072.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=239548.
+
+My Rank is 5.
+My Rank is 4.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+My Rank is 24.
+My Rank is 16.
+My Rank is 8.
+My Rank is 15.
+My Rank is 12.
+My Rank is 21.
+My Rank is 1.
+My Rank is 25.
+My Rank is 14.
+My Rank is 30.
+My Rank is 3.
+My Rank is 22.
+My Rank is 11.
+My Rank is 7.
+E Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 27.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 20.
+My Rank is 10.
+My Rank is 9.
+My Rank is 28.
+My Rank is 26.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 29.
+My Rank is 6.
+My Rank is 19.
+My Rank is 2.
+My Rank is 31.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_228252.txt rsoft_completion_file=done_228252.txt >mpiexeclog.txt!
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_240604.txt rsoft_completion_file=done_240604.txt >mpiexeclog.txt!
+Rank 1: MPI_Init Called, NumProcs=32, mypid=226500.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=234928.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=22128.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=198212.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=35364.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=237356.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=229352.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=231204.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=234536.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=232788.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=227264.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=29260.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=236684.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=224564.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=28604.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=204988.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=235180.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=238736.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=211276.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=217556.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=71916.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=150928.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=238332.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=219228.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=235020.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=152140.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=148048.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=234328.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=201160.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=102396.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=239504.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=240076.
+My Rank is 28.
+My Rank is 7.
+My Rank is 26.
+My Rank is 4.
+My Rank is 23.
+My Rank is 12.
+My Rank is 20.
+My Rank is 30.
+My Rank is 1.
+My Rank is 27.
+My Rank is 9.
+My Rank is 8.
+My Rank is 11.
+My Rank is 2.
+My Rank is 21.
+My Rank is 22.
+My Rank is 13.
+My Rank is 15.
+My Rank is 6.
+My Rank is 3.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_65204.txt rsoft_completion_file=done_65204.txt >mpiexeclog.txt!
+Rank 13: MPI_Init Called, NumProcs=32, mypid=219556.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=217848.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=215196.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=240088.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=228820.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=230512.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=238784.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=229652.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=234088.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=236720.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=218556.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=238132.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=10428.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=196144.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=9128.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=117844.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=218604.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=225208.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=240508.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=9488.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=239184.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=229960.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=235752.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=227052.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=143316.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=234160.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=195256.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=207188.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=237312.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=230300.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=101196.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=13736.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_240276.txt rsoft_completion_file=done_240276.txt >mpiexeclog.txt!
+Rank 12: MPI_Init Called, NumProcs=32, mypid=147524.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=228340.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=238924.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=228192.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=230380.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=240508.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=219916.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=210236.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=234340.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=239672.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=233632.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=223604.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=213048.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=137416.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=119696.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=137428.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=145068.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=233416.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=229560.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=67200.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=233552.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=237300.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=234756.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=238968.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=229044.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=147080.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=216132.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=234352.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=143340.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=217032.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=215072.
+My Rank is 21.
+My Rank is 10.
+My Rank is 13.
+My Rank is 19.
+My Rank is 28.
+My Rank is 20.
+My Rank is 26.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 15.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 31.
+My Rank is 6.
+My Rank is 2.
+My Rank is 30.
+Using MPI Enabled Code
+My Rank is 3.
+NumProcs is 32.
+My Rank is 0.
+My Rank is 22.
+My Rank is 25.
+My Rank is 27.
+My Rank is 1.
+My Rank is 23.
+My Rank is 24.
+My Rank is 5.
+My Rank is 16.
+My Rank is 4.
+My Rank is 7.
+
+My Rank is 8.
+My Rank is 17.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 12.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_236848.txt rsoft_completion_file=done_236848.txt >mpiexeclog.txt!
+Rank 7: MPI_Init Called, NumProcs=32, mypid=236880.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=226216.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=227316.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=235392.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=6784.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=229532.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=218444.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=126248.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=236292.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=90324.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=239820.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=238124.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=172824.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=224708.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=2596.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=229468.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=16796.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=240376.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=65984.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=204112.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=19796.
+
+Rank 28: MPI_Init Called, NumProcs=32, mypid=236540.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=24432.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=47088.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=210340.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=223664.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=215960.
+My Rank is 19.
+My Rank is 5.
+My Rank is 17.
+My Rank is 13.
+My Rank is 20.
+My Rank is 1.
+My Rank is 7.
+My Rank is 23.
+My Rank is 21.
+My Rank is 25.
+My Rank is 22.
+My Rank is 8.
+My Rank is 4.
+My Rank is 6.
+My Rank is 31.
+My Rank is 26.
+My Rank is 12.
+My Rank is 18.
+My Rank is 16.
+My Rank is 27.
+My Rank is 29.
+My Rank is 3.
+My Rank is 11.
+My Rank is 10.
+My Rank is 24.
+My Rank is 2.
+My Rank is 28.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 14.
+My Rank is 30.
+My Rank is 15.
+My Rank is 9.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+ank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_147080.txt rsoft_completion_file=done_147080.txt >mpiexeclog.txt!
+Rank 11: MPI_Init Called, NumProcs=32, mypid=207912.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=233260.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=35364.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=228284.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=238880.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=226880.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=237368.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=240280.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=137592.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=232836.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=236840.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=140164.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=224892.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=164856.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=225376.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=239940.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=214548.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=238684.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=174436.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=201044.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=208192.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=234256.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=226260.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=234412.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=108328.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=217824.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=2524.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=222668.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=836.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=221776.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=18100.
+My Rank is 25.
+My Rank is 20.
+My Rank is 12.
+My Rank is 15.
+My Rank is 10.
+My Rank is 26.
+My Rank is 5.
+
+My Rank is 6.
+My Rank is 13.
+My Rank is 8.
+My Rank is 18.
+My Rank is 14.
+My Rank is 2.
+My Rank is 22.
+My Rank is 23.
+My Rank is 1.
+My Rank is 9.
+My Rank is 21.
+My Rank is 17.
+My Rank is 27.
+My Rank is 28.
+My Rank is 30.
+My Rank is 31.
+My Rank is 19.
+My Rank is 4.
+My Rank is 3.
+My Rank is 29.
+My Rank is 16.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+NumProcs is 32.
+Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 0.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_136104.txt rsoft_completion_file=done_136104.txt >mpiexeclog.txt!
+Rank 25: MPI_Init Called, NumProcs=32, mypid=178420.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=233016.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=100572.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=29304.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=218664.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=29624.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=223344.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=223664.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=237916.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=125032.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=72796.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=233552.
+
+Rank 8: MPI_Init Called, NumProcs=32, mypid=238432.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=17768.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=200936.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=234440.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=151660.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=134092.
+
+Rank 16: MPI_Init Called, NumProcs=32, mypid=232912.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=173136.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=236356.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=197776.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=225988.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=137164.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=134076.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=239712.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=237200.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=202676.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=218444.
+My Rank is 12.
+My Rank is 25.
+My Rank is 22.
+My Rank is 26.
+My Rank is 1.
+My Rank is 18.
+My Rank is 31.
+My Rank is 29.
+My Rank is 23.
+My Rank is 15.
+My Rank is 21.
+My Rank is 30.
+My Rank is 17.
+My Rank is 3.
+
+My Rank is 20.
+My Rank is 13.
+My Rank is 6.
+My Rank is 27.
+My Rank is 8.
+My Rank is 5.
+My Rank is 16.
+My Rank is 7.
+My Rank is 11.
+My Rank is 14.
+My Rank is 9.
+My Rank is 24.
+My Rank is 2.
+My Rank is 10.
+My Rank is 28.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_140172.txt rsoft_completion_file=done_140172.txt >mpiexeclog.txt!
+Rank 17: MPI_Init Called, NumProcs=32, mypid=209756.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=208728.
+
+Rank 27: MPI_Init Called, NumProcs=32, mypid=233644.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=232876.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=102564.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=80624.
+
+Rank 20: MPI_Init Called, NumProcs=32, mypid=143300.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=235648.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=238104.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=1564.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=224436.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=218168.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=231540.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=222792.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=216404.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=239644.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=134456.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=229328.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=240476.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=238924.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=227224.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=235816.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=237800.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=7560.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=238824.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=238332.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=23804.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=228084.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=231240.
+My Rank is 31.
+My Rank is 15.
+My Rank is 22.
+My Rank is 14.
+My Rank is 12.
+My Rank is 13.
+My Rank is 7.
+My Rank is 10.
+My Rank is 21.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 27.
+My Rank is 29.
+My Rank is 24.
+My Rank is 17.
+My Rank is 16.
+My Rank is 8.
+My Rank is 25.
+My Rank is 26.
+My Rank is 23.
+My Rank is 9.
+My Rank is 30.
+My Rank is 3.
+My Rank is 19.
+My Rank is 1.
+My Rank is 28.
+My Rank is 20.
+My Rank is 2.
+My Rank is 11.
+My Rank is 18.
+My Rank is 4.
+My Rank is 5.
+My Rank is 6.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 21: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+
+Using MPI Enabled Code
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+NumProcs is 32.
+My Rank is 0.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir C:\Users\momen\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2021.03-1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_237820.txt rsoft_completion_file=done_237820.txt >mpiexeclog.txt!
+Rank 5: MPI_Init Called, NumProcs=32, mypid=225264.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=28000.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=216820.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=237924.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=145324.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=232204.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=232836.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=204924.
+
+Rank 27: MPI_Init Called, NumProcs=32, mypid=225112.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=226764.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=209808.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=230356.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=223216.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=211084.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=115784.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=121256.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=13520.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=44412.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=143340.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=240616.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=227936.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=238564.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=238260.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=137848.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=237124.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=239844.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=233632.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=140164.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=230896.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=207892.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=233608.
+My Rank is 6.
+My Rank is 14.
+My Rank is 4.
+My Rank is 30.
+Rank 6: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 30: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 14: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 4: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 13.
+My Rank is 7.
+My Rank is 19.
+My Rank is 15.
+Rank 7: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 19: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 15: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 13: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 11.
+My Rank is 5.
+My Rank is 25.
+Rank 5: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 9.
+Rank 25: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 23.
+My Rank is 16.
+My Rank is 28.
+My Rank is 24.
+My Rank is 20.
+My Rank is 10.
+Rank 11: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 29.
+My Rank is 27.
+My Rank is 18.
+My Rank is 26.
+Rank 28: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 24: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 10: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 29: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 18: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 26: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 27: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 17.
+My Rank is 12.
+My Rank is 8.
+My Rank is 1.
+My Rank is 2.
+Rank 20: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 9: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 8: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+My Rank is 3.
+NumProcs is 32.
+My Rank is 21.
+Rank 12: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 23: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 1: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 2: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 3: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 31.
+Rank 16: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 17: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 0: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+My Rank is 22.
+E Error:
+can't open file focus_2_PL_ex.txt.
+Rank 31: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Rank 22: FullWAVE Error:
+can't open file focus_2_PL_ex.txt.
+Using MPI Enabled Code
+FDTD grid info: NX=507 NY=507 NZ=4151, NT=4096
+FDTD estimated simulation memory usage: 67642.6 MB
+Rank in X cut dir 0: NX=507
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.700 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.700 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.700 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.198 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.198 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.198 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.198 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.228 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.228 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.194 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.194 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.199 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.199 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.208 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.208 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.194 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.194 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.247 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.247 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.231 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.231 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.242 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.242 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.240 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.240 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.251 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.634 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.009 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.009 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.116 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.116 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.011 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.011 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.018 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.018 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.998 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.998 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.045 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.045 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.015 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.015 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.002 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.002 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.988 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.988 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.008 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.008 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.020 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.020 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.014 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.014 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.004 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.004 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.007 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.007 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.007 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.007 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.014 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.014 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.018 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.018 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.023 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.023 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.017 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.017 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.005 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.005 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.016 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.016 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.004 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.004 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.006 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.006 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.006 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.006 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.000 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.006 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.006 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.993 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.993 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.981 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.981 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.665 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.665 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.660 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.660 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.665 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.665 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.650 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.650 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.667 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.667 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.656 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.656 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.665 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.665 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.652 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.652 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.659 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.659 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.659 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.659 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.665 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.665 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.661 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.661 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.657 min
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir c:\Users\Brianna\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2023.03-SP1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_48836.txt rsoft_completion_file=done_48836.txt >mpiexeclog.txt!
+
+SimTool: FullWAVE
+Version: 2023.03-SP1 Build 20230525
+
+Rank 31: MPI_Init Called, NumProcs=32, mypid=65832.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=9064.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=61500.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=52336.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=52576.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=58468.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=18712.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=49660.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=30944.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=50568.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=61784.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=17716.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=52732.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=47848.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=56168.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=36796.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=17688.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=63220.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=50420.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=51384.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=55200.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=31860.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=59296.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=60512.
+Rank 8: MPI_Init Called, NumProcs=32, mypid=38848.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=56708.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=4432.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=56404.
+
+My Rank is 28.
+My Rank is 14.
+My Rank is 31.
+My Rank is 9.
+My Rank is 3.
+My Rank is 2.
+My Rank is 17.
+My Rank is 29.
+My Rank is 26.
+My Rank is 21.
+My Rank is 11.
+My Rank is 27.
+My Rank is 22.
+My Rank is 15.
+My Rank is 30.
+My Rank is 5.
+My Rank is 12.
+My Rank is 6.
+My Rank is 7.
+My Rank is 20.
+My Rank is 4.
+My Rank is 19.
+My Rank is 23.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 21: FDTD estimated simulation memory usage: 703.164 MB
+FDTD grid info: NX=507 NY=507 NZ=1181, NT=4096
+Rank 25: FDTD estimated simulation memory usage: 703.164 MB
+Rank 19: FDTD estimated simulation memory usage: 703.164 MB
+Rank 9: FDTD estimated simulation memory usage: 703.164 MB
+Rank 4: FDTD estimated simulation memory usage: 703.164 MB
+Rank 18: FDTD estimated simulation memory usage: 703.164 MB
+Rank 23: FDTD estimated simulation memory usage: 703.164 MB
+Rank 28: FDTD estimated simulation memory usage: 703.164 MB
+Rank 30: FDTD estimated simulation memory usage: 703.164 MB
+Rank 24: FDTD estimated simulation memory usage: 703.164 MB
+Rank 22: FDTD estimated simulation memory usage: 703.164 MB
+Rank 6: FDTD estimated simulation memory usage: 703.164 MB
+Rank 10: FDTD estimated simulation memory usage: 703.164 MB
+Rank 7: FDTD estimated simulation memory usage: 703.164 MB
+Rank 13: FDTD estimated simulation memory usage: 703.164 MB
+Rank 0: FDTD estimated simulation memory usage: 703.164 MB
+Rank 17: FDTD estimated simulation memory usage: 703.164 MB
+Rank 15: FDTD estimated simulation memory usage: 703.164 MB
+Rank 11: FDTD estimated simulation memory usage: 703.164 MB
+Rank 31: FDTD estimated simulation memory usage: 703.164 MB
+Rank 0: Rank in X cut dir 0: NX=16
+Rank 0: Rank in X cut dir 1: NX=17
+Rank 0: Rank in X cut dir 2: NX=17
+Rank 0: Rank in X cut dir 3: NX=17
+Rank 0: Rank in X cut dir 4: NX=17
+Rank 0: Rank in X cut dir 5: NX=17
+Rank 0: Rank in X cut dir 6: NX=17
+Rank 0: Rank in X cut dir 7: NX=17
+Rank 0: Rank in X cut dir 8: NX=17
+Rank 0: Rank in X cut dir 9: NX=17
+Rank 0: Rank in X cut dir 10: NX=17
+Rank 0: Rank in X cut dir 11: NX=17
+Rank 0: Rank in X cut dir 12: NX=17
+Rank 0: Rank in X cut dir 13: NX=17
+Rank 0: Rank in X cut dir 14: NX=16
+Rank 0: Rank in X cut dir 15: NX=16
+Rank 0: Rank in X cut dir 16: NX=16
+Rank 0: Rank in X cut dir 17: NX=16
+Rank 0: Rank in X cut dir 18: NX=17
+Rank 0: Rank in X cut dir 19: NX=17
+Rank 0: Rank in X cut dir 20: NX=17
+Rank 0: Rank in X cut dir 21: NX=17
+Rank 0: Rank in X cut dir 22: NX=17
+Rank 0: Rank in X cut dir 23: NX=17
+Rank 0: Rank in X cut dir 24: NX=17
+Rank 0: Rank in X cut dir 25: NX=17
+Rank 0: Rank in X cut dir 26: NX=17
+Rank 0: Rank in X cut dir 27: NX=17
+Rank 0: Rank in X cut dir 28: NX=17
+Rank 0: Rank in X cut dir 29: NX=17
+Rank 0: Rank in X cut dir 30: NX=17
+Rank 0: Rank in X cut dir 31: NX=16
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir c:\Users\Brianna\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2023.03-SP1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_49144.txt rsoft_completion_file=done_49144.txt >mpiexeclog.txt!
+
+SimTool: FullWAVE
+Version: 2023.03-SP1 Build 20230525
+
+Rank 8: MPI_Init Called, NumProcs=32, mypid=63492.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=15716.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=58628.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=51056.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=61928.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=51492.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=34944.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=65128.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=51536.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=46044.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=53612.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=62960.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=46508.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=56488.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=54660.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=58440.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=61984.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=64928.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=16216.
+Rank 21: MPI_Init Called, NumProcs=32, mypid=60792.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=62872.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=26844.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=14128.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=23196.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=60096.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=56196.
+
+Rank 10: MPI_Init Called, NumProcs=32, mypid=57968.
+My Rank is 9.
+My Rank is 19.
+My Rank is 4.
+My Rank is 17.
+My Rank is 25.
+My Rank is 22.
+My Rank is 26.
+My Rank is 13.
+My Rank is 24.
+My Rank is 12.
+My Rank is 30.
+My Rank is 2.
+My Rank is 29.
+My Rank is 3.
+My Rank is 5.
+My Rank is 31.
+My Rank is 27.
+My Rank is 14.
+My Rank is 15.
+My Rank is 10.
+My Rank is 28.
+My Rank is 8.
+
+My Rank is 7.
+My Rank is 18.
+My Rank is 20.
+My Rank is 6.
+
+My Rank is 11.
+My Rank is 1.
+My Rank is 23.
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 9: FDTD estimated simulation memory usage: 703.164 MB
+Rank 19: FDTD estimated simulation memory usage: 703.164 MB
+Rank 4: FDTD estimated simulation memory usage: 703.164 MB
+Rank 17: FDTD estimated simulation memory usage: 703.164 MB
+Rank 22: FDTD estimated simulation memory usage: 703.164 MB
+Rank 26: FDTD estimated simulation memory usage: 703.164 MB
+Rank 13: FDTD estimated simulation memory usage: 703.164 MB
+Rank 24: FDTD estimated simulation memory usage: 703.164 MB
+Rank 12: FDTD estimated simulation memory usage: 703.164 MB
+Rank 30: FDTD estimated simulation memory usage: 703.164 MB
+Rank 29: FDTD estimated simulation memory usage: 703.164 MB
+Rank 2: FDTD estimated simulation memory usage: 703.164 MB
+Rank 5: FDTD estimated simulation memory usage: 703.164 MB
+Rank 3: FDTD estimated simulation memory usage: 703.164 MB
+Rank 31: FDTD estimated simulation memory usage: 703.164 MB
+Rank 14: FDTD estimated simulation memory usage: 703.164 MB
+Rank 27: FDTD estimated simulation memory usage: 703.164 MB
+Rank 10: FDTD estimated simulation memory usage: 703.164 MB
+Rank 15: FDTD estimated simulation memory usage: 703.164 MB
+Rank 8: FDTD estimated simulation memory usage: 703.164 MB
+Rank 28: FDTD estimated simulation memory usage: 703.164 MB
+Rank 18: FDTD estimated simulation memory usage: 703.164 MB
+Rank 16: FDTD estimated simulation memory usage: 703.164 MB
+Rank 1: FDTD estimated simulation memory usage: 703.164 MB
+Rank 21: FDTD estimated simulation memory usage: 703.164 MB
+Rank 20: FDTD estimated simulation memory usage: 703.164 MB
+FDTD grid info: NX=507 NY=507 NZ=1181, NT=4096
+703.164 MB
+Rank 0: FDTD estimated simulation memory usage: 703.164 MB
+Rank 0: Rank in X cut dir 0: NX=16
+Rank 0: Rank in X cut dir 1: NX=17
+Rank 0: Rank in X cut dir 2: NX=17
+Rank 0: Rank in X cut dir 3: NX=17
+Rank 0: Rank in X cut dir 4: NX=17
+Rank 0: Rank in X cut dir 5: NX=17
+Rank 0: Rank in X cut dir 6: NX=17
+Rank 0: Rank in X cut dir 7: NX=17
+Rank 0: Rank in X cut dir 8: NX=17
+Rank 0: Rank in X cut dir 9: NX=17
+Rank 0: Rank in X cut dir 10: NX=17
+Rank 0: Rank in X cut dir 11: NX=17
+Rank 0: Rank in X cut dir 12: NX=17
+Rank 0: Rank in X cut dir 13: NX=17
+Rank 0: Rank in X cut dir 14: NX=16
+Rank 0: Rank in X cut dir 15: NX=16
+Rank 0: Rank in X cut dir 16: NX=16
+Rank 0: Rank in X cut dir 17: NX=16
+Rank 0: Rank in X cut dir 18: NX=17
+Rank 0: Rank in X cut dir 19: NX=17
+Rank 0: Rank in X cut dir 20: NX=17
+Rank 0: Rank in X cut dir 21: NX=17
+Rank 0: Rank in X cut dir 22: NX=17
+Rank 0: Rank in X cut dir 23: NX=17
+Rank 0: Rank in X cut dir 24: NX=17
+Rank 0: Rank in X cut dir 25: NX=17
+Rank 0: Rank in X cut dir 26: NX=17
+Rank 0: Rank in X cut dir 27: NX=17
+Rank 0: Rank in X cut dir 28: NX=17
+Rank 0: Rank in X cut dir 29: NX=17
+Rank 0: Rank in X cut dir 30: NX=17
+Rank 0: Rank in X cut dir 31: NX=16
+spawning cmd=mpiexec -np 32 -localroot -env I_MPI_PIN_DOMAIN socket -env I_MPI_WAIT_MODE 1 -noprompt -wdir c:\Users\Brianna\Documents\GitHub\PAOWER\simulations\photonicLantern C:\Synopsys\PhotonicSolutions\2023.03-SP1\RSoft\bin\fullwave.exe MSPL6_2.ind fdtd_usefloat=1 wait=0 prefix=mspl6 cliq_file=cliques_64936.txt rsoft_completion_file=done_64936.txt >mpiexeclog.txt!
+
+SimTool: FullWAVE
+Version: 2023.03-SP1 Build 20230525
+
+Rank 8: MPI_Init Called, NumProcs=32, mypid=49048.
+Rank 28: MPI_Init Called, NumProcs=32, mypid=60904.
+Rank 3: MPI_Init Called, NumProcs=32, mypid=62312.
+Rank 25: MPI_Init Called, NumProcs=32, mypid=45716.
+Rank 0: MPI_Init Called, NumProcs=32, mypid=65860.
+Rank 10: MPI_Init Called, NumProcs=32, mypid=36084.
+Rank 31: MPI_Init Called, NumProcs=32, mypid=35828.
+Rank 2: MPI_Init Called, NumProcs=32, mypid=13756.
+Rank 13: MPI_Init Called, NumProcs=32, mypid=52648.
+Rank 9: MPI_Init Called, NumProcs=32, mypid=50404.
+Rank 12: MPI_Init Called, NumProcs=32, mypid=49668.
+Rank 18: MPI_Init Called, NumProcs=32, mypid=65688.
+Rank 11: MPI_Init Called, NumProcs=32, mypid=44008.
+Rank 15: MPI_Init Called, NumProcs=32, mypid=24892.
+Rank 17: MPI_Init Called, NumProcs=32, mypid=54552.
+Rank 26: MPI_Init Called, NumProcs=32, mypid=65908.
+Rank 7: MPI_Init Called, NumProcs=32, mypid=11780.
+Rank 4: MPI_Init Called, NumProcs=32, mypid=61508.
+Rank 20: MPI_Init Called, NumProcs=32, mypid=49300.
+Rank 23: MPI_Init Called, NumProcs=32, mypid=36468.
+Rank 22: MPI_Init Called, NumProcs=32, mypid=21128.
+Rank 16: MPI_Init Called, NumProcs=32, mypid=61248.
+Rank 19: MPI_Init Called, NumProcs=32, mypid=55176.
+Rank 6: MPI_Init Called, NumProcs=32, mypid=57080.
+Rank 27: MPI_Init Called, NumProcs=32, mypid=65444.
+Rank 5: MPI_Init Called, NumProcs=32, mypid=49580.
+Rank 24: MPI_Init Called, NumProcs=32, mypid=51168.
+Rank 1: MPI_Init Called, NumProcs=32, mypid=35288.
+Rank 29: MPI_Init Called, NumProcs=32, mypid=38404.
+Rank 14: MPI_Init Called, NumProcs=32, mypid=9388.
+Rank 30: MPI_Init Called, NumProcs=32, mypid=54492.
+My Rank is 15.
+My Rank is 17.
+My Rank is 27.
+My Rank is 11.
+My Rank is 31.
+My Rank is 22.
+My Rank is 9.
+My Rank is 24.
+My Rank is 14.
+My Rank is 6.
+My Rank is 12.
+My Rank is 30.
+My Rank is 5.
+My Rank is 4.
+My Rank is 1.
+My Rank is 2.
+My Rank is 10.
+My Rank is 21.
+My Rank is 13.
+My Rank is 19.
+My Rank is 25.
+My Rank is 20.
+My Rank is 16.
+My Rank is 18.
+My Rank is 7.
+My Rank is 29.
+My Rank is 8.
+My Rank is 26.
+Rank 15: FDTD estimated simulation memory usage: 703.164 MB
+Rank 17: FDTD estimated simulation memory usage: 703.164 MB
+Using MPI Enabled Code
+NumProcs is 32.
+My Rank is 0.
+Rank 27: FDTD estimated simulation memory usage: 703.164 MB
+Rank 31: FDTD estimated simulation memory usage: 703.164 MB
+Rank 11: FDTD estimated simulation memory usage: 703.164 MB
+Rank 9: FDTD estimated simulation memory usage: 703.164 MB
+Rank 22: FDTD estimated simulation memory usage: 703.164 MB
+Rank 24: FDTD estimated simulation memory usage: 703.164 MB
+Rank 6: FDTD estimated simulation memory usage: 703.164 MB
+Rank 14: FDTD estimated simulation memory usage: 703.164 MB
+Rank 12: FDTD estimated simulation memory usage: 703.164 MB
+Rank 5: FDTD estimated simulation memory usage: 703.164 MB
+Rank 30: FDTD estimated simulation memory usage: 703.164 MB
+Rank 1: FDTD estimated simulation memory usage: 703.164 MB
+Rank 4: FDTD estimated simulation memory usage: 703.164 MB
+Rank 2: FDTD estimated simulation memory usage: 703.164 MB
+Rank 21: FDTD estimated simulation memory usage: 703.164 MB
+Rank 25: FDTD estimated simulation memory usage: 703.164 MB
+Rank 10: FDTD estimated simulation memory usage: 703.164 MB
+Rank 20: FDTD estimated simulation memory usage: 703.164 MB
+Rank 16: FDTD estimated simulation memory usage: 703.164 MB
+Rank 13: FDTD estimated simulation memory usage: 703.164 MB
+Rank 19: FDTD estimated simulation memory usage: 703.164 MB
+Rank 18: FDTD estimated simulation memory usage: 703.164 MB
+Rank 26: FDTD estimated simulation memory usage: 703.164 MB
+Rank 8: FDTD estimated simulation memory usage: 703.164 MB
+Rank 23: FDTD estimated simulation memory usage: 703.164 MB
+Rank 3: FDTD estimated simulation memory usage: 703.164 MB
+Rank 29: FDTD estimated simulation memory usage: 703.164 MBRank 28: FDTD estimated simulation memory usage: 703.164 MB
+FDTD grid info: NX=507 NY=507 NZ=1181, NT=4096
+Rank 0: FDTD estimated simulation memory usage: 703.164 MB
+Rank 0: Rank in X cut dir 0: NX=16
+Rank 0: Rank in X cut dir 1: NX=17
+Rank 0: Rank in X cut dir 2: NX=17
+Rank 0: Rank in X cut dir 3: NX=17
+Rank 0: Rank in X cut dir 4: NX=17
+Rank 0: Rank in X cut dir 5: NX=17
+Rank 0: Rank in X cut dir 6: NX=17
+Rank 0: Rank in X cut dir 7: NX=17
+Rank 0: Rank in X cut dir 8: NX=17
+Rank 0: Rank in X cut dir 9: NX=17
+Rank 0: Rank in X cut dir 10: NX=17
+Rank 0: Rank in X cut dir 11: NX=17
+Rank 0: Rank in X cut dir 12: NX=17
+Rank 0: Rank in X cut dir 13: NX=17
+Rank 0: Rank in X cut dir 14: NX=16
+Rank 0: Rank in X cut dir 15: NX=16
+Rank 0: Rank in X cut dir 16: NX=16
+Rank 0: Rank in X cut dir 17: NX=16
+Rank 0: Rank in X cut dir 18: NX=17
+Rank 0: Rank in X cut dir 19: NX=17
+Rank 0: Rank in X cut dir 20: NX=17
+Rank 0: Rank in X cut dir 21: NX=17
+Rank 0: Rank in X cut dir 22: NX=17
+Rank 0: Rank in X cut dir 23: NX=17
+Rank 0: Rank in X cut dir 24: NX=17
+Rank 0: Rank in X cut dir 25: NX=17
+Rank 0: Rank in X cut dir 26: NX=17
+Rank 0: Rank in X cut dir 27: NX=17
+Rank 0: Rank in X cut dir 28: NX=17
+Rank 0: Rank in X cut dir 29: NX=17
+Rank 0: Rank in X cut dir 30: NX=17
+Rank 0: Rank in X cut dir 31: NX=16
+Rank 0: FDTD estimated monitor memory usage: 908.407 MB
+Rank 2: FDTD estimated monitor memory usage: 0.032784 MB
+
+Rank 21: FDTD estimated monitor memory usage: 0.032784 MB
+Rank 5: FDTD estimated monitor memory usage: 0.032784 MB
+
+Rank 31: FDTD estimated monitor memory usage: 0.032784 MB
+Rank 11: FDTD estimated monitor memory usage: 0.032784 MB
+Rank 8: FDTD estimated monitor memory usage: 0.032784 MB
+RRank 21: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+
+Rank 0: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+
+Rank 29: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 31: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 22: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 11: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 19: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 6: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 27: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 24: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 26: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 9: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 10: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 13: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 1: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+Rank 7: FDTD actual memory usage: 0 + 0 (base) = 0 MB
+
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1181, NX=501, NY=501, Estimated Time = 0.187 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.198 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1181, NX=501, NY=501, Estimated Time = 0.198 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.206 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1181, NX=501, NY=501, Estimated Time = 0.206 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.200 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=281, NX=501, NY=501, Estimated Time = 0.047 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.074 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=281, NX=501, NY=501, Estimated Time = 0.074 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.072 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=281, NX=501, NY=501, Estimated Time = 0.072 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.072 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.074 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.654 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.654 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.678 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.678 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.999 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.999 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.680 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.680 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.666 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.666 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.665 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.665 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 1.106 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=501, NY=501, Estimated Time = 0.000 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.005 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 1.106 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=501, NY=501, Estimated Time = 0.000 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.005 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=501, NY=501, Estimated Time = 0.000 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.030 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=501, Estimated Time = 0.015 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.024 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=501, Estimated Time = 0.024 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.024 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=334, NY=501, Estimated Time = 0.032 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.024 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.009 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.013 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.013 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+
+SimTool: BeamPROP
+Version: 2023.03-SP1 Build 20230525
+
+Message: NZ=2, NX=251, NY=251, Estimated Time = 0.012 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.012 min
+Message: NZ=1, NX=501, NY=501, Estimated Time = 0.000 min
+Message: NZ=4151, NX=501, NY=501, Estimated Time = 0.352 min
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+setting KMP_AFFINITY=nowarnings,explicit,proclist=[7,6,5,4,3,2,1,0]
+Message: Actual Computation Time = 0.809 min

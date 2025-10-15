@@ -1,0 +1,215 @@
+
+A = 30
+Ax = A*sin(PhiPattern+PhiA)
+Ay = A*cos(PhiPattern+PhiA)
+Az = 0
+B = A
+BL = 75
+Bx = B*sin(PhiPattern+PhiB)
+By = B*cos(PhiPattern+PhiB)
+Bz = 0
+C = A
+CellVolume = abs(Ax*(By*Cz-Bz*Cy)+Ay*(Bz*Cx-Bx*Cz)+Az*(Bx*Cy-By*Cx))
+Cx = 0
+Cy = 0
+Cz = 1
+DomainX = PeriodX
+DomainY = PeriodY
+Dt = grid_size/2
+Dx = PeriodX/16
+Dy = Dx*PeriodY/PeriodX
+Dz = 0.5
+L = 15*SF
+L2 = 300*SF
+L3 = 5*SF
+L4 = 10*SF
+L5 = 0.0*SF
+L6 = 100*SF
+LO = 8
+LO2 = 20
+LOx = 20
+LOx2 = 35
+NX = 4
+NY = 4
+OffsetX = -0.5*Period
+OffsetY = -0.5*Period
+OffsetZ = 0*Period
+Offset_E = 15
+Period = 4
+PeriodX = Ax
+PeriodY = By
+PhiA = 90
+PhiB = 0
+PhiPattern = 0
+ROT = 60
+ROT2 = 60
+ROT8 = 45
+SF = 100
+Xmax = (NX+1)/2*PeriodX
+Xmin = -Xmax
+Ymax = (NY+1)/2*PeriodY
+Ymin = -Ymax
+alpha = 0
+background_index = 1.444
+boundary_max = 50
+boundary_max_y = 50
+boundary_min = -50
+boundary_min_y = -50
+bpm_output_monitors_warned = 1
+cad_aspectratio_x = 500
+cad_aspectratio_y = 200
+cad_ind_file = MSPL6_2.ind
+cad_xselect_pos = 9.5
+cad_yselect_pos = -110.6
+cad_yselect_size = PeriodY
+cad_zselect_pos = 46.2
+color_outline = 0
+cover_index = 1
+delta = 0.006
+dimension = 3
+domain_min = 0
+eim = 0
+fdtd_stop_time = fdtd_time_step*2^12
+fdtd_time_step = Dt
+free_space_wavelength = 1.55
+grid_size = 0.2
+grid_size_y = 0.2
+height = width
+idbpm = 1
+index_display_mode = DISPLAY_3DVOLUME
+ini = 20
+k0 = (2*pi)/free_space_wavelength
+launch_height = height
+launch_normalization = 1
+launch_position = 0
+launch_position_y = 0
+launch_type = LAUNCH_GAUSSIAN
+launch_width = width
+mode_method = 0
+mode_output_format = OUTPUT_REAL_IMAG
+mode_set = 0-0
+mode_set_setting = 0-32767
+mode_threshold = 0.002
+monitor_max = 1.45
+monitor_min = 1.44
+monitor_output = 0
+pbg_layout = PBG_LAYOUT_HEX_XZ
+prefix = bptmp
+scan_output = 0
+sim_tool = ST_BEAMPROP
+slice_display_mode = DISPLAY_CONTOURMAPXY
+slice_normalization = 1
+slice_output_format = 0
+slice_position_z = 3300
+slice_step_size = 100
+structure = STRUCT_FIBER
+width = 15.7
+widthLP01 = 9.004
+widthLP02 = 5.6
+widthLP03 = 4.5
+widthLP11 = 8.4
+widthLP11o = 7.3
+widthLP12 = 5
+widthLP12o = 5
+widthLP21 = 5.8
+widthLP21o = 5.8
+widthLP22 = 4.5
+widthLP22o = 4.5
+widthLP31 = 5
+widthLP31o = 5
+widthLP41 = 5
+widthLP41o = 5
+
+
+material 1
+	name = SMF_core
+	optical
+		nr = 1.45
+	end optical
+end material
+
+
+segment 1
+	position_taper = TAPER_LINEAR
+	position_y_taper = TAPER_LINEAR
+	begin.x = 0
+	begin.z = 0
+	end.x = 0 rel begin segment 1
+	end.y = 0 rel begin segment 1
+	end.z = 10000 rel begin segment 1
+end segment
+
+
+
+
+launch_field 1
+	launch_pathway = 1
+	launch_type = LAUNCH_COMPMODE
+	launch_normalization = 1
+	launch_width = width
+	launch_height = height
+	launch_position = 0
+	launch_position_y = 0
+	launch_file = ZS1_ex.m00.txt
+end launch_field
+
+
+text_block 1
+	name = MOST
+	text =
+RSScanOptFormat1
+
+[MODE] 
+SCAN
+
+PREFIX mosttmp
+PREFIX_STYLE 0
+CLUSTER 0 0 0 0 1 ""
+USERSIM_CALLSTYLE 0 0
+
+[SIMULATION]
+SIMTOOL ST_DEFAULT 
+WINDOW_SIZE 0
+VERBOSITY 1
+PRE_WHOLE_CMD 
+POST_WHOLE_CMD 
+PRE_CMD 
+POST_CMD 
+PREPOST_ACTIVE 0
+PREPOST_ERRCODES 0
+EXTRA_DATAINDEX_CMDS 
+
+[ALGORITHM]
+NAME root_1d_brent
+MAXSTEPS DEFAULT  1000
+CONVERGENCE DEFAULT  1.0e-7
+
+[INDEPENDENT_VARIABLES_SCAN]
+IV_Declarations
+SYMTAB_SCALAR widthLP11o N :  IV_LINEAR_STEPS : 3.65 : 10.9 : 0.725 : 11 :  :  :
+SYMTAB_SCALAR widthLP12 N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP12o N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP21 N :  IV_LINEAR_STEPS : 2.9 : 8.7 : 0.58 : 11 :  :  :
+SYMTAB_SCALAR widthLP21o N :  IV_LINEAR_STEPS : 2.9 : 8.7 : 0.58 : 11 :  :  :
+SYMTAB_SCALAR widthLP22 N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP22o N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP31 N :  IV_LINEAR_STEPS : 2.6 : 7.8 : 0.52 : 11 :  :  :
+SYMTAB_SCALAR widthLP41 N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP41o N :  IV_LINEAR_STEPS : 2.5 : 7.5 : 0.5 : 11 :  :  :
+SYMTAB_SCALAR widthLP02 Y :  IV_LINEAR_STEPS : 5 : 6 : 0.5 : 3 :  :  :
+SYMTAB_SCALAR widthLP03 N :  IV_LINEAR_STEPS : 2.5 : 5.5 : 0.3 : 11 :  :  :
+SYMTAB_SCALAR widthLP01 N :  IV_LINEAR_STEPS : 9 : 9.0045 : 0.00045 : 11 :  :  :
+
+[INDEPENDENT_VARIABLES_OPT]
+IV_Declarations
+
+IV_InitialValues
+
+[MEASUREMENTS:ST_BEAMPROP]
+STANDARD bp_mon_6_last Y 
+
+[METRICS]
+
+	end text
+end text_block
+
